@@ -1,12 +1,292 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\stickershop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\stickershop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\services\\interfaces\\saleserviceinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\services\\interfaces\\saleserviceinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\services\\interfaces\\productserviceinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\services\\interfaces\\productserviceinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\dtos\\saleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\dtos\\saleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\dtos\\saledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\dtos\\saledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\dtos\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\dtos\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\models\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\models\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SaleServiceInterface.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Services\\Interfaces\\SaleServiceInterface.cs",
+              "RelativeDocumentMoniker": "stickershop\\Services\\Interfaces\\SaleServiceInterface.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Services\\Interfaces\\SaleServiceInterface.cs",
+              "RelativeToolTip": "stickershop\\Services\\Interfaces\\SaleServiceInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:40:01.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductServiceInterface.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Services\\Interfaces\\ProductServiceInterface.cs",
+              "RelativeDocumentMoniker": "stickershop\\Services\\Interfaces\\ProductServiceInterface.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Services\\Interfaces\\ProductServiceInterface.cs",
+              "RelativeToolTip": "stickershop\\Services\\Interfaces\\ProductServiceInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:39:44.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "stickershop\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Services\\ProductService.cs",
+              "RelativeToolTip": "stickershop\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:39:16.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "stickershop.csproj",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\StickerShop.csproj",
+              "RelativeDocumentMoniker": "stickershop\\StickerShop.csproj",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\StickerShop.csproj",
+              "RelativeToolTip": "stickershop\\StickerShop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T03:09:39.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaleItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\SaleItemDTO.cs",
+              "RelativeDocumentMoniker": "stickershop\\DTOs\\SaleItemDTO.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\SaleItemDTO.cs",
+              "RelativeToolTip": "stickershop\\DTOs\\SaleItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:31:33.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SaleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\SaleDTO.cs",
+              "RelativeDocumentMoniker": "stickershop\\DTOs\\SaleDTO.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\SaleDTO.cs",
+              "RelativeToolTip": "stickershop\\DTOs\\SaleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:31:20.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\InventoryDTO.cs",
+              "RelativeDocumentMoniker": "stickershop\\DTOs\\InventoryDTO.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\InventoryDTO.cs",
+              "RelativeToolTip": "stickershop\\DTOs\\InventoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:31:09.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "stickershop\\DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "stickershop\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:30:57.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SaleItem.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\SaleItem.cs",
+              "RelativeDocumentMoniker": "stickershop\\Models\\SaleItem.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\SaleItem.cs",
+              "RelativeToolTip": "stickershop\\Models\\SaleItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:28:52.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "stickershop\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\Sale.cs",
+              "RelativeToolTip": "stickershop\\Models\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:28:39.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "stickershop\\Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\Inventory.cs",
+              "RelativeToolTip": "stickershop\\Models\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:28:28.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "stickershop\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\Product.cs",
+              "RelativeToolTip": "stickershop\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:28:18.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "stickershop\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "stickershop\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:28:02.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "stickershop\\Controllers\\SaleController.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "stickershop\\Controllers\\SaleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:27:37.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "stickershop\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "stickershop\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:27:16.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "stickershop\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "stickershop\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:26:00.532Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\stickershop.csproj": {}
+    "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\StickerShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\stickershop.csproj": {
+    "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\StickerShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\stickershop.csproj",
-        "projectName": "stickershop",
-        "projectPath": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\stickershop.csproj",
+        "projectUniqueName": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\StickerShop.csproj",
+        "projectName": "StickerShop",
+        "projectPath": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\StickerShop.csproj",
         "packagesPath": "C:\\Users\\n01615562\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\obj\\",
         "projectStyle": "PackageReference",
