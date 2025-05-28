@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\stickershop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\stickershop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "stickershop",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\stickershop.csproj",
+              "RelativeDocumentMoniker": "stickershop\\stickershop.csproj",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\stickershop.csproj",
+              "RelativeToolTip": "stickershop\\stickershop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T03:09:39.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
