@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\stickershop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\stickershop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershop\\stickershop\\services\\interfaces\\saleserviceinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EF90926-2D05-42F8-8471-1BBA4444ABA6}|stickershop\\stickershop.csproj|solutionrelative:stickershop\\services\\interfaces\\saleserviceinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SaleServiceInterface.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Services\\Interfaces\\SaleServiceInterface.cs",
               "RelativeDocumentMoniker": "stickershop\\Services\\Interfaces\\SaleServiceInterface.cs",
@@ -91,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductServiceInterface.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Services\\Interfaces\\ProductServiceInterface.cs",
               "RelativeDocumentMoniker": "stickershop\\Services\\Interfaces\\ProductServiceInterface.cs",
@@ -104,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "stickershop\\Services\\ProductService.cs",
@@ -117,20 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "stickershop.csproj",
-              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\StickerShop.csproj",
-              "RelativeDocumentMoniker": "stickershop\\StickerShop.csproj",
-              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\StickerShop.csproj",
-              "RelativeToolTip": "stickershop\\StickerShop.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-28T03:09:39.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "SaleItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\SaleItemDTO.cs",
               "RelativeDocumentMoniker": "stickershop\\DTOs\\SaleItemDTO.cs",
@@ -143,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SaleDTO.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\SaleDTO.cs",
               "RelativeDocumentMoniker": "stickershop\\DTOs\\SaleDTO.cs",
@@ -156,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "InventoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\InventoryDTO.cs",
               "RelativeDocumentMoniker": "stickershop\\DTOs\\InventoryDTO.cs",
@@ -169,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\DTOs\\ProductDTO.cs",
               "RelativeDocumentMoniker": "stickershop\\DTOs\\ProductDTO.cs",
@@ -182,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "SaleItem.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\SaleItem.cs",
               "RelativeDocumentMoniker": "stickershop\\Models\\SaleItem.cs",
@@ -195,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\Sale.cs",
               "RelativeDocumentMoniker": "stickershop\\Models\\Sale.cs",
@@ -208,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\Inventory.cs",
               "RelativeDocumentMoniker": "stickershop\\Models\\Inventory.cs",
@@ -221,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Models\\Product.cs",
               "RelativeDocumentMoniker": "stickershop\\Models\\Product.cs",
@@ -234,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "stickershop\\Data\\AppDbContext.cs",
@@ -247,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "SaleController.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Controllers\\SaleController.cs",
               "RelativeDocumentMoniker": "stickershop\\Controllers\\SaleController.cs",
@@ -260,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "stickershop\\Controllers\\InventoryController.cs",
@@ -273,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\stickershop\\stickershop\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "stickershop\\Controllers\\ProductController.cs",

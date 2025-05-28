@@ -1,0 +1,6 @@
+@StickerShopCMS_HostAddress = http://localhost:5011
+
+GET {{StickerShopCMS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
