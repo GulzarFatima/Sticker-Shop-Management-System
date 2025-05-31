@@ -1,12 +1,310 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\stickershopcms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\stickershopcms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\dtos\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\dtos\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\dtos\\saleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\dtos\\saleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\dtos\\saledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\dtos\\saledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\models\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\models\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\services\\interfaces\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\services\\interfaces\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|c:\\users\\n01615562\\documents\\github\\sticker-shop-management-system\\stickershopcms\\stickershopcms\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EEFBEA-DA4E-471D-8CF3-24F0EB2C1AF3}|StickerShopCMS\\StickerShopCMS.csproj|solutionrelative:stickershopcms\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Services\\ProductService.cs",
+              "RelativeToolTip": "StickerShopCMS\\Services\\ProductService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAD4vxUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:04:28.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\appsettings.json",
+              "RelativeDocumentMoniker": "StickerShopCMS\\appsettings.json",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\appsettings.json",
+              "RelativeToolTip": "StickerShopCMS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-28T05:03:21.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Models\\Product.cs",
+              "RelativeToolTip": "StickerShopCMS\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:05:07.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Program.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Program.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Program.cs",
+              "RelativeToolTip": "StickerShopCMS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:23:18.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StickerShopCMS.csproj",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\StickerShopCMS.csproj",
+              "RelativeDocumentMoniker": "StickerShopCMS\\StickerShopCMS.csproj",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\StickerShopCMS.csproj",
+              "RelativeToolTip": "StickerShopCMS\\StickerShopCMS.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T04:03:03.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "StickerShopCMS\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:02:23.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "StickerShopCMS\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:30:43.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "StickerShopCMS\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:02:38.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Models\\Inventory.cs",
+              "RelativeToolTip": "StickerShopCMS\\Models\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:05:15.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "StickerShopCMS\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:06:07.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InventoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\DTOs\\InventoryDTO.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\DTOs\\InventoryDTO.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\DTOs\\InventoryDTO.cs",
+              "RelativeToolTip": "StickerShopCMS\\DTOs\\InventoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:06:17.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SaleItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\DTOs\\SaleItemDTO.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\DTOs\\SaleItemDTO.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\DTOs\\SaleItemDTO.cs",
+              "RelativeToolTip": "StickerShopCMS\\DTOs\\SaleItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:07:26.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Models\\Sale.cs",
+              "RelativeToolTip": "StickerShopCMS\\Models\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:05:22.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SaleItem.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Models\\SaleItem.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Models\\SaleItem.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Models\\SaleItem.cs",
+              "RelativeToolTip": "StickerShopCMS\\Models\\SaleItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:05:38.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SaleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\DTOs\\SaleDTO.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\DTOs\\SaleDTO.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\DTOs\\SaleDTO.cs",
+              "RelativeToolTip": "StickerShopCMS\\DTOs\\SaleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:07:16.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISaleService.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Services\\Interfaces\\ISaleService.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Services\\Interfaces\\ISaleService.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Services\\Interfaces\\ISaleService.cs",
+              "RelativeToolTip": "StickerShopCMS\\Services\\Interfaces\\ISaleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:04:54.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "StickerShopCMS\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:04:43.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "StickerShopCMS\\Controllers\\SaleController.cs",
+              "ToolTip": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "StickerShopCMS\\Controllers\\SaleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T04:02:55.514Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

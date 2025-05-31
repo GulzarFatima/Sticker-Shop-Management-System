@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\StickerShopCMS.csproj": {}
+    "/Users/gulfatima/Desktop/GITHUB REPOS/Sticker-Shop-Management-System/StickerShopCMS/StickerShopCMS/StickerShopCMS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\StickerShopCMS.csproj": {
+    "/Users/gulfatima/Desktop/GITHUB REPOS/Sticker-Shop-Management-System/StickerShopCMS/StickerShopCMS/StickerShopCMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\StickerShopCMS.csproj",
+        "projectUniqueName": "/Users/gulfatima/Desktop/GITHUB REPOS/Sticker-Shop-Management-System/StickerShopCMS/StickerShopCMS/StickerShopCMS.csproj",
         "projectName": "StickerShopCMS",
-        "projectPath": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\StickerShopCMS.csproj",
-        "packagesPath": "C:\\Users\\n01615562\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\n01615562\\Documents\\GitHub\\Sticker-Shop-Management-System\\StickerShopCMS\\StickerShopCMS\\obj\\",
+        "projectPath": "/Users/gulfatima/Desktop/GITHUB REPOS/Sticker-Shop-Management-System/StickerShopCMS/StickerShopCMS/StickerShopCMS.csproj",
+        "packagesPath": "/Users/gulfatima/.nuget/packages/",
+        "outputPath": "/Users/gulfatima/Desktop/GITHUB REPOS/Sticker-Shop-Management-System/StickerShopCMS/StickerShopCMS/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\n01615562\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/gulfatima/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,12 +38,34 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -74,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
