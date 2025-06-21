@@ -1,6 +1,8 @@
 using StickerShopCMS.Data;
 using StickerShopCMS.DTOs;
 using StickerShopCMS.Models;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace StickerShopCMS.Services
 {
@@ -24,11 +26,13 @@ namespace StickerShopCMS.Services
         // ------------------------------------------------------------------
         // GET ALL SALES
         /// <summary>
-        /// Returns all sales from the database.
+        /// Returns all sales from the database, including their related sale items.
         /// </summary>
         public List<Sale> GetAll()
         {
-            return _context.Sales.ToList();
+            return _context.Sales
+                .Include(s => s.SaleItems) 
+                .ToList();
         }
 
         // ------------------------------------------------------------------

@@ -2,6 +2,8 @@
 using StickerShopCMS.Models;
 using StickerShopCMS.DTOs;
 using StickerShopCMS.Services;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace StickerShopCMS.Controllers
 {

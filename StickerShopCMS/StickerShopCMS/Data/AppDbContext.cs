@@ -17,6 +17,10 @@ namespace StickerShopCMS.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Inventory>().ToTable("inventory", t => t.ExcludeFromMigrations());
+            modelBuilder.Entity<Product>().ToTable("product", t => t.ExcludeFromMigrations());
+            modelBuilder.Entity<Sale>().ToTable("sale", t => t.ExcludeFromMigrations());
+            modelBuilder.Entity<SaleItem>().ToTable("sale_item", t => t.ExcludeFromMigrations());
             modelBuilder.Entity<Product>().ToTable("product"); 
             modelBuilder.Entity<Inventory>().ToTable("inventory");
         }
