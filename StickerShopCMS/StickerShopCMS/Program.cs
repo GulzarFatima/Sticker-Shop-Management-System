@@ -9,10 +9,15 @@ builder.Services.AddScoped<ProductService>();
 
 // Add services to the container.
 builder.Services.AddControllers();
+builder.Services.AddScoped<InventoryService>();
+
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
     ));
+
 
 
 

@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StickerShopCMS.Models;
-using System.Collections.Generic;
 
 namespace StickerShopCMS.Data
 {
@@ -9,5 +8,14 @@ namespace StickerShopCMS.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<Inventory> Inventory { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Product>().ToTable("product"); 
+            modelBuilder.Entity<Inventory>().ToTable("inventory");
+        }
+        
     }
 }
