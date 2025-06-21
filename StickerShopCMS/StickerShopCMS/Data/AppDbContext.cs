@@ -11,6 +11,10 @@ namespace StickerShopCMS.Data
 
         public DbSet<Inventory> Inventory { get; set; }
 
+        public DbSet<SaleItem> SaleItems { get; set; }
+
+        public DbSet<Sale> Sales { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>().ToTable("product"); 

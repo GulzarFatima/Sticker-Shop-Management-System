@@ -70,7 +70,7 @@ namespace StickerShopCMS.Migrations
 
                     b.HasKey("ProductId");
 
-                    b.ToTable("Products");
+                    b.ToTable("producs");
                 });
 #pragma warning restore 612, 618
         }

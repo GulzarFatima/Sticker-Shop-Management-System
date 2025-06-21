@@ -14,7 +14,7 @@ namespace StickerShopCMS.Migrations
         {
             migrationBuilder.AlterColumn<string>(
                 name: "ProductName",
-                table: "Products",
+                table: "product",
                 type: "longtext",
                 nullable: true,
                 oldClrType: typeof(string),

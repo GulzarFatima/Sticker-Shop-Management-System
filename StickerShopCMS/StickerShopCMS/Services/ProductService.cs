@@ -1,8 +1,6 @@
 ﻿using StickerShopCMS.Data;
 using StickerShopCMS.DTOs;
 using StickerShopCMS.Models;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace StickerShopCMS.Services
 {
@@ -78,7 +76,7 @@ namespace StickerShopCMS.Services
         ///   "price": 59.99
         /// }'
         /// </example>
-        
+
         public bool UpdateProduct(int id, ProductDTO dto)
         {
             var product = _context.Products.FirstOrDefault(p => p.ProductId == id);

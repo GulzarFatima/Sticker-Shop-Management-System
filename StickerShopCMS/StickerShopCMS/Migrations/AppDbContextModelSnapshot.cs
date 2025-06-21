@@ -45,7 +45,7 @@ namespace StickerShopCMS.Migrations
 
                     b.HasKey("InventoryId");
 
-                    b.ToTable("inventory");
+                    b.ToTable("inventory", (string)null);
                 });
 
             modelBuilder.Entity("StickerShopCMS.Models.Product", b =>
@@ -67,7 +67,7 @@ namespace StickerShopCMS.Migrations
 
                     b.HasKey("ProductId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 #pragma warning restore 612, 618
         }
