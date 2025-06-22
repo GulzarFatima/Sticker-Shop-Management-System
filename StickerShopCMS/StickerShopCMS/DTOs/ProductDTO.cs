@@ -7,8 +7,10 @@
     
     public class ProductDTO
     {
-        public string ProductName { get; set; }
-        public string ProductDescription { get; set; }
+        public int ProductId { get; set; }
+        public string ProductName { get; set; } = string.Empty;
+        public string ProductDescription { get; set; } = string.Empty;
         public decimal Price { get; set; }
+        public int CurrentQuantity { get; set; }
     }
 }

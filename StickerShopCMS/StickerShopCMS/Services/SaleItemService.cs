@@ -59,37 +59,59 @@ namespace StickerShopCMS.Services
         }
 
         // ------------------------------------------------------------------
-        // ADD NEW SALE ITEM
+        // ADD SALE ITEM
         /// <summary>
-        /// Adds a new sale item to the database.
+        /// Adds a new sale item and updates the inventory for the product.
         /// </summary>
-        /// <param name="dto">SaleItemDTO containing sale item details</param>
+        /// <param name="dto">SaleItemDTO containing sale details</param>
+        /// <returns>Success message or error</returns>
         /// <example>
         /// curl -X POST http://localhost:5011/api/SaleItem \
         /// -H "Content-Type: application/json" \
-        /// -d '{
-        ///   "saleId": 1,
-        ///   "productId": 2,
-        ///   "quantity": 3,
-        ///   "price": 19.99
-        /// }'
+        /// -d '{"saleId":1,"productId":3,"quantity":2,"price":4.99}'
         /// </example>
-
-         public string Add(SaleItemDTO dto)
+        public string Add(SaleItemDTO dto)
         {
-            var saleItem = new SaleItem
+            using var transaction = _context.Database.BeginTransaction();
+
+            try
             {
-                SaleId = dto.SaleId,
-                ProductId = dto.ProductId,
-                Quantity = dto.Quantity,
-                Price = dto.Price
-            };
+                // Check if the inventory record exists for the given product
+                var inventory = _context.Inventories
+                    .FirstOrDefault(i => i.ProductId == dto.ProductId);
 
-            _context.SaleItems.Add(saleItem);
-            _context.SaveChanges();
+                if (inventory == null)
+                {
+                    return $"Inventory not found for product ID {dto.ProductId}.";
+                }
 
-            return "Sale item added successfully.";
+                // Update the inventory quantity (deduct sold quantity)
+                inventory.StockLevel -= dto.Quantity;
+                inventory.LastUpdated = DateTime.Now;
+
+                // Add the sale item
+                var saleItem = new SaleItem
+                {
+                    SaleId = dto.SaleId,
+                    ProductId = dto.ProductId,
+                    Quantity = dto.Quantity,
+                    Price = dto.Price
+                };
+                _context.SaleItems.Add(saleItem);
+
+                // Save changes and commit transaction
+                _context.SaveChanges();
+                transaction.Commit();
+
+                return "Sale item added and inventory updated successfully.";
+            }
+                catch (Exception ex)
+            {
+                transaction.Rollback();
+                return $"Error: {ex.InnerException?.InnerException?.Message ?? ex.ToString()}";
+            }
         }
+
 
         // ------------------------------------------------------------------
         // DELETE SALE ITEM BY ID

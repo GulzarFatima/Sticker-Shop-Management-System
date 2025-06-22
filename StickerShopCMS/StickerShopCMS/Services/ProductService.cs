@@ -13,8 +13,6 @@ namespace StickerShopCMS.Services
     /// - Get product by ID
     /// </summary>
 
-    // ------------------------------------------------------------------
-    /// GET ALL PRODUCTS
     public class ProductService
     {
         private readonly AppDbContext _context;
@@ -24,29 +22,45 @@ namespace StickerShopCMS.Services
             _context = context;
         }
 
-        public List<Product> GetAll()
+// ------------------------------------------------------------------
+// GET ALL PRODUCTS
+/// <summary>
+/// Returns all products with their current quantity.
+/// </summary>
+public List<ProductDTO> GetAll()
+{
+    var products = _context.Products.ToList();
+
+    var productDtos = products.Select(p =>
+    {
+        // Get latest stock level for the product
+        var latestStock = _context.Inventories
+            .Where(i => i.ProductId == p.ProductId)
+            .OrderByDescending(i => i.LastUpdated)
+            .Select(i => i.StockLevel)
+            .FirstOrDefault();
+
+        // Get total quantity sold for the product
+        var totalSold = _context.SaleItems
+            .Where(s => s.ProductId == p.ProductId)
+            .Sum(s => (int?)s.Quantity) ?? 0;
+
+        return new ProductDTO
         {
-            return _context.Products.ToList(); 
-        }
-    
+            ProductId = p.ProductId,
+            ProductName = p.ProductName,
+            ProductDescription = p.ProductDescription,
+            Price = p.Price,
+            CurrentQuantity = latestStock - totalSold
+        };
+    }).ToList();
+
+    return productDtos;
+}
+
+
         // ------------------------------------------------------------------
         // ADD NEW PRODUCT
-        /// <summary>
-        /// Adds a new product to the database.
-        /// </summary>
-        /// <param name="dto">ProductDTO containing product details</param>
-        /// <example>
-        /// curl -X 'POST' \
-        /// 'http://localhost:5011/api/Product' \
-        /// -H 'accept: */*' \
-        /// -H 'Content-Type: application/json' \
-        /// -d '{
-        ///   "productName": "Jumping Froggy",
-        ///   "productDescription": "Frog jumping",
-        ///   "price": 44.99
-        /// }'
-        /// </example>   
-
         public void AddProduct(ProductDTO dto)
         {
             var product = new Product
@@ -56,80 +70,44 @@ namespace StickerShopCMS.Services
                 Price = dto.Price
             };
 
-            _context.Products.Add(product); 
+            _context.Products.Add(product);
             _context.SaveChanges();
         }
 
         // ------------------------------------------------------------------
         // UPDATE AN EXISTING PRODUCT BY ID
-        /// </summary>
-        /// <param name="id">Product ID to update</param>
-        /// <param name="dto">Updated product details</param>
-        /// <example>
-        /// curl -X 'PUT' \
-        /// 'http://localhost:5011/api/Product/3' \
-        /// -H 'accept: */*' \
-        /// -H 'Content-Type: application/json' \
-        /// -d '{
-        ///   "productName": "Updated Froggy",
-        ///   "productDescription": "Frog with crown",
-        ///   "price": 59.99
-        /// }'
-        /// </example>
-
         public bool UpdateProduct(int id, ProductDTO dto)
         {
             var product = _context.Products.FirstOrDefault(p => p.ProductId == id);
             if (product == null)
-                return false;  // not found
+                return false;
 
             product.ProductName = dto.ProductName;
             product.ProductDescription = dto.ProductDescription;
             product.Price = dto.Price;
 
             _context.SaveChanges();
-            return true;  // success
-}
+            return true;
+        }
 
         // ------------------------------------------------------------------
         // DELETE A PRODUCT BY ID
-        /// </summary>
-        /// <param name="id">Product ID to delete</param>
-        /// <example>
-        /// curl -X 'DELETE' \
-        /// 'http://localhost:5011/api/Product/3' \
-        /// -H 'accept: */*'
-        /// </example>
-
         public bool DeleteProduct(int id)
         {
             var product = _context.Products.FirstOrDefault(p => p.ProductId == id);
             if (product == null)
-                return false; // Product not found
+                return false;
 
-            // If product exists, remove it from the database
-                _context.Products.Remove(product);
-                _context.SaveChanges();
-                return true; // Product deleted successfully
+            _context.Products.Remove(product);
+            _context.SaveChanges();
+            return true;
         }
 
         // ------------------------------------------------------------------
         // GET PRODUCT BY ID
-        /// <summary>
-        /// Retrieves a single product by its ID.
-        /// </summary>
-        /// <returns>Product object if found & "Product not found" otherwise</returns>
-        /// <example>
-        /// curl -X 'GET' \
-        /// 'http://localhost:5011/api/Product/3' \
-        /// -H 'accept: text/plain'
-        /// </example>
-
         public Product GetById(int id)
         {
             return _context.Products.FirstOrDefault(p => p.ProductId == id);
         }
-
-
     }
 }

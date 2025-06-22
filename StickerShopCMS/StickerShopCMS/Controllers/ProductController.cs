@@ -40,7 +40,7 @@ namespace StickerShopCMS.Controllers
         /// </example>
     
         [HttpGet]
-        public ActionResult<List<Product>> GetAll()
+        public ActionResult<List<ProductDTO>> GetAll()
         {
             return _productService.GetAll();
         }

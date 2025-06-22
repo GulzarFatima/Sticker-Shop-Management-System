@@ -41,7 +41,7 @@ namespace StickerShopCMS.Services
         /// <returns>List of Inventory objects.</returns>
         public List<Inventory> GetAll()
         {
-            return _context.Inventory.ToList();
+            return _context.Inventories.ToList();
         }
 
         // ------------------------------------------------------------------
@@ -53,7 +53,7 @@ namespace StickerShopCMS.Services
         /// <returns>Inventory object if found; null otherwise.</returns>
         public Inventory GetById(int id)
         {
-            return _context.Inventory.FirstOrDefault(i => i.InventoryId == id);
+            return _context.Inventories.FirstOrDefault(i => i.InventoryId == id);
         }
 
         // ------------------------------------------------------------------
@@ -67,11 +67,11 @@ namespace StickerShopCMS.Services
             var inventory = new Inventory
             {
                 ProductId = dto.ProductId,
-                QuantityAvailable = dto.QuantityAvailable,
+                QuantityAdded = dto.QuantityAdded,
                 LastUpdated = DateTime.Now
             };
 
-            _context.Inventory.Add(inventory);
+            _context.Inventories.Add(inventory);
             _context.SaveChanges();
         }
 
@@ -85,17 +85,17 @@ namespace StickerShopCMS.Services
         /// <returns>Status string ("Updated." or "Not Found")</returns>
         public string UpdateInventory(int id, InventoryDTO dto)
         {
-            var inventory = _context.Inventory.FirstOrDefault(i => i.InventoryId == id);
+            var inventory = _context.Inventories.FirstOrDefault(i => i.InventoryId == id);
             if (inventory == null)
             {
                 return "Not Found";
             }
 
             inventory.ProductId = dto.ProductId;
-            inventory.QuantityAvailable = dto.QuantityAvailable;
+            inventory.QuantityAdded = dto.QuantityAdded;
             inventory.LastUpdated = DateTime.UtcNow;
 
-            _context.Inventory.Update(inventory);
+            _context.Inventories.Update(inventory);
             _context.SaveChanges();
             return "Updated.";
         }
@@ -109,13 +109,13 @@ namespace StickerShopCMS.Services
         /// <returns>Status string ("Deleted." or "Not Found")</returns>
         public string DeleteInventory(int id)
         {
-            var inventory = _context.Inventory.FirstOrDefault(i => i.InventoryId == id);
+            var inventory = _context.Inventories.FirstOrDefault(i => i.InventoryId == id);
             if (inventory == null)
             {
                 return "Not Found";
             }
 
-            _context.Inventory.Remove(inventory);
+            _context.Inventories.Remove(inventory);
             _context.SaveChanges();
             return "Deleted.";
         }

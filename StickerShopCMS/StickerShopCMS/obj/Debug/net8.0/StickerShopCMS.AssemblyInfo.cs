@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StickerShopCMS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c395be68089c407a77516d6c5838656831e996f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4d69b8f4dfde822b88d0d5c6e963738916ced73")]
 [assembly: System.Reflection.AssemblyProductAttribute("StickerShopCMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StickerShopCMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

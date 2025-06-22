@@ -27,5 +27,9 @@ namespace StickerShopCMS.Models
        
         [Column("price")]
         public decimal Price { get; set; }
+
+        [NotMapped]
+        public int CurrentQuantity { get; set; }
+
     }
 }

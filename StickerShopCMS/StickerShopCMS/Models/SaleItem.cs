@@ -26,5 +26,11 @@ namespace StickerShopCMS.Models
         [Column("price", TypeName = "decimal(10,2)")]
         public decimal Price { get; set; }
 
+        [ForeignKey("SaleId")]
+        public Sale Sale { get; set; }
+
+        [ForeignKey("ProductId")]
+        public Product Product { get; set; }
+
     }
 }

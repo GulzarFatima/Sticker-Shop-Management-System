@@ -24,6 +24,8 @@ namespace StickerShopCMS.Migrations
 
             modelBuilder.Entity("StickerShopCMS.Models.Inventory", b =>
                 {
+    
+
                     b.Property<int>("InventoryId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
@@ -45,10 +47,7 @@ namespace StickerShopCMS.Migrations
 
                     b.HasKey("InventoryId");
 
-                    b.ToTable("inventory", null, t =>
-                        {
-                            t.ExcludeFromMigrations();
-                        });
+                    b.ToTable("inventory", (string)null);
                 });
 
             modelBuilder.Entity("StickerShopCMS.Models.Product", b =>
@@ -74,10 +73,7 @@ namespace StickerShopCMS.Migrations
 
                     b.HasKey("ProductId");
 
-                    b.ToTable("product", null, t =>
-                        {
-                            t.ExcludeFromMigrations();
-                        });
+                    b.ToTable("product", (string)null);
                 });
 
             modelBuilder.Entity("StickerShopCMS.Models.Sale", b =>
@@ -103,10 +99,7 @@ namespace StickerShopCMS.Migrations
 
                     b.HasKey("SaleId");
 
-                    b.ToTable("sale", null, t =>
-                        {
-                            t.ExcludeFromMigrations();
-                        });
+                    b.ToTable("sale");
                 });
 
             modelBuilder.Entity("StickerShopCMS.Models.SaleItem", b =>
@@ -138,10 +131,7 @@ namespace StickerShopCMS.Migrations
 
                     b.HasIndex("SaleId");
 
-                    b.ToTable("sale_item", null, t =>
-                        {
-                            t.ExcludeFromMigrations();
-                        });
+                    b.ToTable("sale_item");
                 });
 
             modelBuilder.Entity("StickerShopCMS.Models.SaleItem", b =>

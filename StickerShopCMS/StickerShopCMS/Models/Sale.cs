@@ -26,7 +26,7 @@ namespace StickerShopCMS.Models
         public decimal TotalAmount { get; set; }
 
         // 1 Sale can have many SaleItems
-        public List<SaleItem> SaleItems { get; set; }
+        public List<SaleItem> SaleItems { get; set; } = new();
 
     }
 }

@@ -3,6 +3,6 @@
     public class InventoryDTO
     {
         public int ProductId { get; set; }
-        public int QuantityAvailable { get; set; }
+        public int QuantityAdded { get; set; }
     }
 }
