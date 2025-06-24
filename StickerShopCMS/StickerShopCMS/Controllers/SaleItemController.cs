@@ -33,7 +33,7 @@ namespace StickerShopCMS.Controllers
         /// curl -X GET https://localhost:0000/api/SaleItem
         /// </example>
         [HttpGet]
-        public ActionResult<List<SaleItem>> GetAll()
+        public ActionResult<List<SaleItemDTO>> GetAll()
         {
             return _saleItemService.GetAll();
         }
@@ -72,8 +72,9 @@ namespace StickerShopCMS.Controllers
         /// -d '{"saleId": 1, "productId": 2, "quantity": 5, "price": 12.99}'
         /// </example>
 
-        [HttpPost]
-        public IActionResult Add(SaleItemDTO dto)
+        [HttpPost]      
+        public IActionResult Add([FromBody] CreateSaleItemDTO dto)
+
         {
         var result = _saleItemService.Add(dto);
         return Ok(new { message = "Sale item added successfully.", details = result });

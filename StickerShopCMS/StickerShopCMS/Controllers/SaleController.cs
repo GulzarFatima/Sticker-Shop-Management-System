@@ -34,7 +34,8 @@ namespace StickerShopCMS.Controllers
         /// curl -X GET http://localhost:5011/api/Sale
         /// </example>
         [HttpGet]
-        public ActionResult<List<Sale>> GetAll()
+        [HttpGet]
+        public ActionResult<List<SaleDTO>> GetAll()
         {
             return _saleService.GetAll();
         }
@@ -72,11 +73,12 @@ namespace StickerShopCMS.Controllers
         /// -d '{"saleId":1,"saleDate":"2024-06-01","quantitySold":3,"totalAmount":29.97}'
         /// </example>
         [HttpPost]
-        public IActionResult Add(SaleDTO dto)
+        public IActionResult Create([FromBody] CreateSaleDTO dto)
         {
-            var message = _saleService.Add(dto);
-            return Ok(new { message });
+            var result = _saleService.AddSale(dto);
+            return Ok(result);
         }
+
 
         // ------------------------------------------------------------------
         /// DELETE SALE
@@ -88,15 +90,12 @@ namespace StickerShopCMS.Controllers
         /// <example>
         /// curl -X DELETE http://localhost:5011/api/Sale/1
         /// </example>
-        [HttpDelete("{id}")]
+       [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var message = _saleService.Delete(id);
-
-            if (message.Contains("not found"))
-                return NotFound(new { message });
-
-            return Ok(new { message });
+            var result = _saleService.Delete(id);
+            return Ok(result);
         }
+
     }
 }

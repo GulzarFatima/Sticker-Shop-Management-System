@@ -51,7 +51,7 @@ public List<ProductDTO> GetAll()
             ProductName = p.ProductName,
             ProductDescription = p.ProductDescription,
             Price = p.Price,
-            CurrentQuantity = latestStock - totalSold
+            CurrentQuantity = latestStock
         };
     }).ToList();
 

@@ -28,12 +28,27 @@ namespace StickerShopCMS.Services
         /// <summary>
         /// Returns all sales from the database, including their related sale items.
         /// </summary>
-        public List<Sale> GetAll()
+        public List<SaleDTO> GetAll()
         {
             return _context.Sales
-                .Include(s => s.SaleItems) 
+                .Include(s => s.SaleItems)
+                .Select(s => new SaleDTO
+                {
+                    SaleId = s.SaleId,
+                    QuantitySold = s.QuantitySold,
+                    SaleDate = s.SaleDate,
+                    TotalAmount = s.TotalAmount,
+                    SaleItems = s.SaleItems.Select(item => new SaleItemDTO
+                    {
+                        SaleItemId = item.SaleItemId,
+                        ProductId = item.ProductId,
+                        Quantity = item.Quantity,
+                        Price = item.Price
+                    }).ToList()
+                })
                 .ToList();
         }
+
 
         // ------------------------------------------------------------------
         // GET SALE BY ID
@@ -56,11 +71,11 @@ namespace StickerShopCMS.Services
         /// </summary>
         /// <param name="dto">SaleDTO with sale details</param>
         /// <returns>Success message</returns>
-        public string Add(SaleDTO dto)
+        public object AddSale(CreateSaleDTO dto)
         {
             var sale = new Sale
             {
-                SaleDate = dto.SaleDate,
+                SaleDate = DateTime.Now,
                 QuantitySold = dto.QuantitySold,
                 TotalAmount = dto.TotalAmount
             };
@@ -68,8 +83,11 @@ namespace StickerShopCMS.Services
             _context.Sales.Add(sale);
             _context.SaveChanges();
 
-            return "Sale added successfully.";
+            return $"Sale created successfully. ID: {sale.SaleId}";
+
         }
+
+
 
         // ------------------------------------------------------------------
         // DELETE SALE
@@ -78,7 +96,7 @@ namespace StickerShopCMS.Services
         /// </summary>
         /// <param name="id">Sale ID</param>
         /// <returns>Success or not found message</returns>
-        public string Delete(int id)
+       public string Delete(int id)
         {
             var sale = _context.Sales.FirstOrDefault(s => s.SaleId == id);
             if (sale == null)
@@ -89,5 +107,6 @@ namespace StickerShopCMS.Services
 
             return "Sale deleted successfully.";
         }
+
     } 
 }

@@ -31,9 +31,17 @@ namespace StickerShopCMS.Services
         /// curl -X GET http://localhost:5011/api/SaleItem
         /// </example>
 
-        public List<SaleItem> GetAll()
+        public List<SaleItemDTO> GetAll()
         {
-            return _context.SaleItems.ToList();
+            return _context.SaleItems
+                .Select(s => new SaleItemDTO
+                {
+                    SaleItemId = s.SaleItemId,
+                    SaleId = s.SaleId,
+                    ProductId = s.ProductId,
+                    Quantity = s.Quantity,
+                    Price = s.Price
+                }).ToList();
         }
 
         // ------------------------------------------------------------------
@@ -63,14 +71,14 @@ namespace StickerShopCMS.Services
         /// <summary>
         /// Adds a new sale item and updates the inventory for the product.
         /// </summary>
-        /// <param name="dto">SaleItemDTO containing sale details</param>
+        /// <param name="dto">CreateSaleItemDTO containing sale details</param>
         /// <returns>Success message or error</returns>
         /// <example>
         /// curl -X POST http://localhost:5011/api/SaleItem \
         /// -H "Content-Type: application/json" \
         /// -d '{"saleId":1,"productId":3,"quantity":2,"price":4.99}'
         /// </example>
-        public string Add(SaleItemDTO dto)
+        public string Add(CreateSaleItemDTO dto)
         {
             using var transaction = _context.Database.BeginTransaction();
 
