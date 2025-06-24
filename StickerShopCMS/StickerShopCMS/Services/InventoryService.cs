@@ -67,7 +67,7 @@ namespace StickerShopCMS.Services
             var inventory = new Inventory
             {
                 ProductId = dto.ProductId,
-                QuantityAdded = dto.QuantityAdded,
+                StockLevel = dto.StockLevel,
                 LastUpdated = DateTime.Now
             };
 
@@ -92,7 +92,7 @@ namespace StickerShopCMS.Services
             }
 
             inventory.ProductId = dto.ProductId;
-            inventory.QuantityAdded = dto.QuantityAdded;
+            inventory.StockLevel = dto.StockLevel;
             inventory.LastUpdated = DateTime.UtcNow;
 
             _context.Inventories.Update(inventory);

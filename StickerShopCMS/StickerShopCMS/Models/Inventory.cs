@@ -15,9 +15,7 @@ namespace StickerShopCMS.Models
         public int ProductId { get; set; }
 
         [Column("stock_level")]
-        public int QuantityAdded { get; set; }
-
-        public int StockLevel { get; set;}
+        public int StockLevel { get; set; }
 
         [Column("last_updated")]
         public DateTime LastUpdated { get; set; }

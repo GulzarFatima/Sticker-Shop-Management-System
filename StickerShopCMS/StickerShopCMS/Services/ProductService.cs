@@ -61,7 +61,7 @@ public List<ProductDTO> GetAll()
 
         // ------------------------------------------------------------------
         // ADD NEW PRODUCT
-        public void AddProduct(ProductDTO dto)
+        public void AddProduct(CreateProductDTO dto)
         {
             var product = new Product
             {
@@ -76,7 +76,7 @@ public List<ProductDTO> GetAll()
 
         // ------------------------------------------------------------------
         // UPDATE AN EXISTING PRODUCT BY ID
-        public bool UpdateProduct(int id, ProductDTO dto)
+        public bool UpdateProduct(int id, UpdateProductDTO dto)
         {
             var product = _context.Products.FirstOrDefault(p => p.ProductId == id);
             if (product == null)

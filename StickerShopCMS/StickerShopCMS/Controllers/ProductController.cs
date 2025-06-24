@@ -59,7 +59,7 @@ namespace StickerShopCMS.Controllers
         /// </example>
 
         [HttpPost]
-        public IActionResult Create(ProductDTO dto)
+        public IActionResult Create(CreateProductDTO dto)
         {
             // Validation - check if product name is empty - if yes, stop & show error.
             if (dto == null || string.IsNullOrWhiteSpace(dto.ProductName))
@@ -88,11 +88,11 @@ namespace StickerShopCMS.Controllers
         /// </example>
 
         [HttpPut("{id}")]
-        public IActionResult Update(int id, ProductDTO dto)
+        public IActionResult Update(int id, [FromBody] UpdateProductDTO dto)
         {
             var updated = _productService.UpdateProduct(id, dto);
             if (!updated)
-                return NotFound("Product not found");
+                return NotFound("Product not found.");
 
             return Ok(new { message = "Product updated successfully." });
         }
